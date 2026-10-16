@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#141726">
+<meta name="referrer" content="no-referrer">
+<title>Cloud Games — the sky is the game</title>
+<meta name="description" content="Cloud Games: find shapes in the clouds, catch the golden hour, and share the skies you see. For iPhone.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23141726'/%3E%3Cpath d='M18 42a10 10 0 0 1 2-19.8A13 13 0 0 1 45 25a8.5 8.5 0 0 1 1 17Z' fill='%23FDFBF7'/%3E%3Ccircle cx='46' cy='18' r='5' fill='%23D9B978'/%3E%3C/svg%3E">
+<style>:root{--bg:#0f1220;--bg2:#141726;--surface:#1e3055;--glass:rgba(30,48,85,.55);--edge:rgba(253,251,247,.18);--ink:#fdfbf7;--ink2:rgba(253,251,247,.72);--sky:#91aec7;--gold:#d9b978;--blush:#e7b7a5;color-scheme:dark}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;min-height:100vh;background:var(--bg);background-image:radial-gradient(120% 60% at 50% -10%,#2a3a63 0%,rgba(42,58,99,0) 60%),radial-gradient(80% 50% at 85% 110%,rgba(231,183,165,.18) 0%,rgba(231,183,165,0) 70%),linear-gradient(180deg,#141726 0%,#0f1220 100%);background-attachment:fixed;color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+a{color:var(--sky);text-underline-offset:3px}a:hover{color:var(--ink)}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px}
+header.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:20px 0}
+.brand{white-space:nowrap;font-family:ui-serif,"New York",Georgia,"Times New Roman",serif;font-size:20px;letter-spacing:.02em;color:var(--ink);text-decoration:none}
+.brand span{color:var(--gold)}
+nav.top{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:4px 14px}nav.top a{color:var(--ink2);text-decoration:none;font-size:15px}nav.top a:hover,nav.top a[aria-current]{color:var(--ink)}
+h1,h2,h3{font-family:ui-serif,"New York",Georgia,"Times New Roman",serif;font-weight:600;line-height:1.25}
+h1{font-size:34px;margin:24px 0 8px}h2{font-size:22px;margin:36px 0 8px;color:var(--ink)}h3{font-size:18px;margin:24px 0 6px}
+p,li{color:var(--ink2)}ul{padding-left:22px}li{margin:6px 0}
+.meta{color:var(--ink2);font-size:14px;margin:0 0 24px}
+.lead{font-size:18px;color:var(--ink)}
+.rule{height:1px;border:0;background:linear-gradient(90deg,rgba(217,185,120,0),var(--gold),rgba(217,185,120,0));margin:28px 0;opacity:.7}
+.card{background:var(--glass);border:1px solid var(--edge);border-radius:16px;padding:18px 20px;margin:20px 0}
+.toc{columns:2;column-gap:24px;font-size:15px;padding-left:18px}.toc li{break-inside:avoid}
+footer{padding:40px 0 48px;color:var(--ink2);font-size:14px}footer a{color:var(--ink2)}
+.hero{min-height:calc(100vh - 160px);display:flex;flex-direction:column;justify-content:center;text-align:center;padding:24px 0}
+.hero h1{font-size:clamp(40px,11vw,64px);margin:0 0 12px;letter-spacing:.01em}
+.hero .tag{font-size:clamp(18px,4.6vw,22px);color:var(--ink);max-width:520px;margin:0 auto 28px}
+.btn{display:inline-block;padding:14px 26px;border-radius:999px;background:var(--gold);color:#141726;font-weight:600;text-decoration:none;min-height:44px}
+.btn[aria-disabled="true"]{opacity:.9;cursor:default}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--edge)}
+.row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.small{font-size:14px;color:var(--ink2)}
+details{background:var(--glass);border:1px solid var(--edge);border-radius:14px;padding:14px 18px;margin:12px 0}
+summary{cursor:pointer;color:var(--ink);font-weight:600;min-height:28px}details p{margin:10px 0 2px}
+ol li{color:var(--ink2)}
+@media (max-width:520px){nav.top{gap:4px 10px}nav.top a{font-size:14px}.brand{font-size:18px}.toc{columns:1}h1{font-size:28px}}
+@media (prefers-reduced-motion:no-preference){a,.btn{transition:color .2s,opacity .2s}}</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><a class="brand" href="index.html">Cloud <span>Games</span></a><nav class="top" aria-label="Site"><a href="index.html" aria-current="page">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html">Support</a></nav></header>
+<main>
+<section class="hero">
+<p class="small" style="letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin:0 0 14px">For iPhone</p>
+<h1>Cloud Games</h1>
+<p class="tag">The oldest game there is: look up, find something beautiful, and share it.</p>
+<div class="row">
+<!-- APP_STORE_URL: replace href + remove aria-disabled when the listing is live -->
+<a class="btn" href="#" aria-disabled="true">App Store — coming soon</a>
+<a class="btn ghost" href="support.html">Support</a>
+</div>
+<p class="small" style="margin-top:28px">Hearts, angels, animals, pink skies and sunsets — a kind, ad-free place for the skies you find.<br>Questions? <a href="mailto:regardforbeauregard@gmail.com">regardforbeauregard@gmail.com</a></p>
+</section>
+</main>
+<footer><hr class="rule">© 2026 Digital Magnolia · Baton Rouge, Louisiana, USA · <a href="mailto:regardforbeauregard@gmail.com">regardforbeauregard@gmail.com</a><br><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a> · <a href="support.html">Support</a></footer>
+</div>
+</body>
+</html>
